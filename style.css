@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    padding: 0 2%;
+    font-family: 'Rubik Vinyl', cursive;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: gray;
+    top: 0;
+}
+
+nav.profile {
+    display: flex;
+    align-items: center;
+}
