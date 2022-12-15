@@ -5,11 +5,11 @@ body {
     padding: 0 2%;
     font-family: 'Rubik Vinyl', cursive;
 }
-
+/*************  NAVBAR   **********************/
 nav {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     position: sticky;
@@ -17,7 +17,44 @@ nav {
     top: 0;
 }
 
-nav.profile {
+.profile {
     display: flex;
     align-items: center;
 }
+
+nav .profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+nav .profile h1{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li:hover {
+    border-bottom-color: #000;
+}
+
+@media screen and {max-width: 700px;
+   nav {
+    justify-content: center;
+   }
+   nav ul {
+    display: none;
+   } 
+    
+}
+
