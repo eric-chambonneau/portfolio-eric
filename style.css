@@ -1,64 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif&family=Rubik+Vinyl&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif&family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Rubik+Bubbles&family=Rubik+Vinyl&display=swap");
 
 body {
-    padding: 0 2%;
-    font-family: 'Rubik Vinyl', cursive;
+  padding: 0 2%;
+  font-family: "Rubik Bubbles", cursive;
 }
 /*************  NAVBAR   **********************/
 nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    background-color: gray;
-    top: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: gray;
+  top: 0;
 }
 
 .profile {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-nav .profile img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+nav .profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
-nav .profile h1{
-    margin-left: 10px;
-    font-size: 15px;
+nav .profile h1 {
+  margin-left: 10px;
+  font-size: 15px;
 }
 
 nav ul {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 nav ul li {
-    margin-left: 20px;
-    cursor: pointer;
-    border-bottom: 1px solid #fff;
+  margin-left: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
 }
 
 nav ul li:hover {
-    border-bottom-color: #000;
+  border-bottom-color: #000;
 }
 
 .page-content {
-    margin: 4%;
+  margin: 4%;
 }
+.page-content header {
+  margin-top: 5%;
+  max-width: 80%;
+}
+.page-content header h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-size: 4vw;
+}
+.page-content header p {
+  line-height: 30px;
+  color: #818181;
+}
+.page-content header button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.page-content header button:hover {
+  color: blue;
+  border-bottom-bottom: #000;
+}
+.page-content .presentation-image{
+    margin-top: 5%;
+}
+.page-content .presentation-image img{
+    max-width: 100%;
+    height: auto;
+}
+
 
 @media screen and (max-width: 700px) {
-   nav {
+  nav {
     justify-content: center;
-   }
-   nav ul {
+  }
+  nav ul {
     display: none;
-   } 
-    
+  }
+  .page-content {
+    margin-top: 10%;
+    max-width: 100%;
+  }
 }
-
