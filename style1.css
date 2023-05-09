@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styles.css */
+
+/* Personnalisation du style de la page */
+
+body {
+  padding-top: 70px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Personnalisation des couleurs */
+
+.navbar {
+  background-color: #f8f9fa !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #212529 !important;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+}
